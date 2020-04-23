@@ -1,0 +1,85 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+
+.plotis{
+  width: 100px;
+  height: 100px;
+  background-color:LightSeaGreen;
+  animation-name: keicia_ploti;
+  animation-duration: 4s;
+}
+@keyframes keicia_ploti{
+    0%{width: 100px;}
+    25% {width: 200px;}
+    50% {width: 300px;}
+    75% {width: 400px;}
+    100% {width: 500px;}
+}
+
+.apskritimas{
+    width: 150px;
+    height: 150px;
+    background-color: MediumPurple;
+    border-radius: 100%;
+    animation-name: keicia_spalvas;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+@keyframes keicia_spalvas{
+   0% {background-color: MediumPurple;}
+    25% {background-color: LightGreen;}
+   50% {background-color: Magenta;}
+   70% {background-color: LightSalmon;}
+   100% {background-color: LightSkyBlue;}
+}
+
+
+.nuotrauka{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-image: url("./img/Klaipeda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: keicia_nuotrauka;
+    animation-duration: 8s;
+    animation-delay: 10s;  
+}
+@keyframes keicia_nuotrauka {
+   0% {background-image: url("./img/Kaunas.jpg");}
+   25% {background-image: url("./img/Klaipeda.jpg");}
+   50% {background-image: url("./img/Siauliai.jpg");}
+   75% {background-image: url("./img/Vilnius.jpg");}
+    100% {background-image: url("./img/Panevezys.jpg");}
+}
+
+/*
+@keyframes manoanimacija{
+    0%{width: 100px; height: 100px;}
+    25% {width: 200px; height: 200px;}
+    50% {width: 300px; height: 300px;}
+    75% {width: 400px; height: 400px;}
+    100% {width: 500px; height: 500px;}
+}
+*/
+
+
+
+
+/*
+@keyframes judantis_kvadratas {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+*/
+
